@@ -21,8 +21,8 @@ Upload the python code.
 
 Write your own steps
 
-## PROGRAM
-
+## PROGRAM:
+```
 from django.contrib import admin
 from .models import Student, StudentAdmin
 
@@ -43,6 +43,7 @@ class Student(models.Model):
 class StudentAdmin(admin.ModelAdmin):
     list_display = ('refNum', 'name', 'age', 'email', 'dept')
 
+```
 ## OUTPUT
 
 ![](./ORM.png)
